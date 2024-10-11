@@ -26,17 +26,35 @@ function draw()
 
     // TODO: 如果發生碰撞(畫布寬canvas.width, 畫布高canvas.height)，則改變速度(dx, dy)和顏色(color)
     
-	if(x < 0 || x > canvas.width) dx = -dx;
-	if(y < 0 || y > canvas.height) dy = -dy;
-	
-	if(x2 < 0 || x2 > canvas.width) dx2 = -dx2;
-	if(y2 < 0 || y2 > canvas.height) dy2 = -dy2;
-	
+	if(x < 0 || x > canvas.width) 
+	{
+		dx = -dx;
+		color = "#" + Math.floor(Math.random()*16777215).toString(16);
+	}
+	if(y < 0 || y > canvas.height) 
+	{
+		dy = -dy;
+		color = "#" + Math.floor(Math.random()*16777215).toString(16);
+	}
+	if(x2 < 0 || x2 > canvas.width) 
+	{	
+		dx2 = -dx2;
+		color2 = "#" + Math.floor(Math.random()*16777215).toString(16);
+	}
+	if(y2 < 0 || y2 > canvas.height) 
+	{	
+		dy2 = -dy2;
+		color2 = "#" + Math.floor(Math.random()*16777215).toString(16);
+	}
 	// ...
 	
-	if((x-x2)*(x-x2) + (y-y2)*(y-y2) < (r+r2)*(r+r2)) [dx,dy,dx2,dy2] = [dx2,dy2,dx,dy];
-
-    drawBall(x, y, r, color);
+	if((x-x2)*(x-x2) + (y-y2)*(y-y2) < (r+r2)*(r+r2)) 
+	{	
+		[dx,dy,dx2,dy2] = [dx2,dy2,dx,dy];
+		color = "#" + Math.floor(Math.random()*16777215).toString(16);
+		color2 = "#" + Math.floor(Math.random()*16777215).toString(16);
+    }
+	drawBall(x, y, r, color);
 	
 	drawBall(x2, y2, r2, color2);
 	
