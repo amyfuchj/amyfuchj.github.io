@@ -12,6 +12,23 @@ gdjs._38283_38957Code.eventsList0 = function(runtimeScene) {
 
 {
 
+
+let isConditionTrue_0 = false;
+isConditionTrue_0 = false;
+isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
+if (isConditionTrue_0) {
+gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs._38283_38957Code.GDNewSpriteObjects1);
+{for(var i = 0, len = gdjs._38283_38957Code.GDNewSpriteObjects1.length ;i < len;++i) {
+    gdjs._38283_38957Code.GDNewSpriteObjects1[i].getBehavior("Animation").setAnimationName("1111 (1)");
+}
+}{gdjs.evtTools.sound.playMusic(runtimeScene, "yisell_sound_201403232254142562_88366.mp3", true, 100, 1);
+}}
+
+}
+
+
+{
+
 gdjs.copyArray(runtimeScene.getObjects("MedievalButtonBeige"), gdjs._38283_38957Code.GDMedievalButtonBeigeObjects1);
 
 let isConditionTrue_0 = false;
@@ -26,23 +43,6 @@ for (var i = 0, k = 0, l = gdjs._38283_38957Code.GDMedievalButtonBeigeObjects1.l
 gdjs._38283_38957Code.GDMedievalButtonBeigeObjects1.length = k;
 if (isConditionTrue_0) {
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "conversation", false);
-}}
-
-}
-
-
-{
-
-
-let isConditionTrue_0 = false;
-isConditionTrue_0 = false;
-isConditionTrue_0 = gdjs.evtTools.runtimeScene.sceneJustBegins(runtimeScene);
-if (isConditionTrue_0) {
-gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs._38283_38957Code.GDNewSpriteObjects1);
-{for(var i = 0, len = gdjs._38283_38957Code.GDNewSpriteObjects1.length ;i < len;++i) {
-    gdjs._38283_38957Code.GDNewSpriteObjects1[i].getBehavior("Animation").setAnimationName("1111 (1)");
-}
-}{gdjs.evtTools.sound.playMusic(runtimeScene, "yisell_sound_201403232254142562_88366.mp3", true, 100, 1);
 }}
 
 }
