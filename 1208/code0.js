@@ -48,16 +48,6 @@ gdjs.copyArray(runtimeScene.getObjects("NewSprite"), gdjs._38283_38957Code.GDNew
 }
 
 
-{
-
-
-let isConditionTrue_0 = false;
-{
-}
-
-}
-
-
 };
 
 gdjs._38283_38957Code.func = function(runtimeScene) {

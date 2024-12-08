@@ -219,7 +219,7 @@ gdjs.LevelCode.eventsList0 = function(runtimeScene) {
 
 let isConditionTrue_0 = false;
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11067868);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10093596);
 }
 if (isConditionTrue_0) {
 {gdjs.evtTools.sound.playSound(runtimeScene, "jump.wav", false, 100, 1);
@@ -1351,7 +1351,7 @@ for (var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerHitBoxObjects2.length;i<l;++i)
 gdjs.LevelCode.GDPlayerHitBoxObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11095420);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10121148);
 }
 }
 }
@@ -1431,7 +1431,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDPlayerHitBoxObjects2Objects, gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDlampObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11099628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10125356);
 }
 }
 if (isConditionTrue_0) {
@@ -1465,7 +1465,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDPlayerHitBoxObjects2Objects, gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDlamp2Objects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11101628);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10127356);
 }
 }
 if (isConditionTrue_0) {
@@ -1506,7 +1506,7 @@ for (var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerHitBoxObjects2.length;i<l;++i)
 gdjs.LevelCode.GDPlayerHitBoxObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11103828);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10129556);
 }
 }
 if (isConditionTrue_0) {
@@ -1542,7 +1542,7 @@ for (var i = 0, k = 0, l = gdjs.LevelCode.GDPlayerHitBoxObjects2.length;i<l;++i)
 gdjs.LevelCode.GDPlayerHitBoxObjects2.length = k;
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11105380);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10131108);
 }
 }
 }
@@ -1611,7 +1611,7 @@ isConditionTrue_0 = false;
 isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDPlayerHitBoxObjects2Objects, gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDCheckpointObjects2Objects, false, runtimeScene, false);
 if (isConditionTrue_0) {
 isConditionTrue_0 = false;
-{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(11108204);
+{isConditionTrue_0 = runtimeScene.getOnceTriggers().triggerOnce(10133932);
 }
 }
 if (isConditionTrue_0) {
@@ -1854,7 +1854,7 @@ gdjs.copyArray(runtimeScene.getObjects("Player"), gdjs.LevelCode.GDPlayerObjects
 }
 
 
-};gdjs.LevelCode.asyncCallback11119476 = function (runtimeScene, asyncObjectsList) {
+};gdjs.LevelCode.asyncCallback10145204 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.LevelCode.localVariables);
 {gdjs.evtTools.runtimeScene.replaceScene(runtimeScene, "Game Win", false);
 }gdjs.LevelCode.localVariables.length = 0;
@@ -1868,7 +1868,7 @@ gdjs.LevelCode.eventsList13 = function(runtimeScene) {
 {
 const asyncObjectsList = new gdjs.LongLivedObjectsList();
 asyncObjectsList.backupLocalVariablesContainers(gdjs.LevelCode.localVariables);
-runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.LevelCode.asyncCallback11119476(runtimeScene, asyncObjectsList)));
+runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(2), (runtimeScene) => (gdjs.LevelCode.asyncCallback10145204(runtimeScene, asyncObjectsList)));
 }
 }
 
