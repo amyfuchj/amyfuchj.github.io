@@ -1366,7 +1366,7 @@ isConditionTrue_0 = gdjs.evtTools.object.hitBoxesCollisionTest(gdjs.LevelCode.ma
 if (isConditionTrue_0) {
 /* Reuse gdjs.LevelCode.GDNewSprite10Objects2 */
 {for(var i = 0, len = gdjs.LevelCode.GDNewSprite10Objects2.length ;i < len;++i) {
-    gdjs.LevelCode.GDNewSprite10Objects2[i].hide();
+    gdjs.LevelCode.GDNewSprite10Objects2[i].deleteFromScene(runtimeScene);
 }
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDNewSprite10Objects2Objects, 576, -(33), "GUI");
 }{gdjs.evtTools.sound.playSound(runtimeScene, "coin.wav", false, 100, 1);
@@ -1395,7 +1395,7 @@ gdjs.LevelCode.GDNewSprite9Objects2.length = 0;
 
 gdjs.LevelCode.GDlamp3Objects2.length = 0;
 
-{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDNewSprite9Objects2Objects, 4467, 65, "");
+{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDNewSprite9Objects2Objects, 4464, 195, "");
 }{gdjs.evtTools.object.createObjectOnScene((typeof eventsFunctionContext !== 'undefined' ? eventsFunctionContext : runtimeScene), gdjs.LevelCode.mapOfGDgdjs_9546LevelCode_9546GDlamp3Objects2Objects, 3286, 118, "");
 }{for(var i = 0, len = gdjs.LevelCode.GDNewSprite10Objects2.length ;i < len;++i) {
     gdjs.LevelCode.GDNewSprite10Objects2[i].deleteFromScene(runtimeScene);
