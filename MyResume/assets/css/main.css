@@ -454,6 +454,11 @@ h6 {
   color: color-mix(in srgb, var(--default-color), transparent 70%);
 }
 
+.img-limited {
+  max-width: 250px; /* 限制最大寬度 */
+  height: auto;      /* 讓高度根據比例自動調整 */
+}
+
 /*--------------------------------------------------------------
 # Global Sections
 --------------------------------------------------------------*/
